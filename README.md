@@ -14,4 +14,4 @@ If you require further assistance, open a support ticket through my [Discord ser
 ## License
 This work is licensed under a **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
 
-Some assets included within this package may fall under different licensing, please read the LICENSE.txt file for exceptions.
+Some assets included within this package may fall under different licensing, please read the **LICENSE.txt** file for exceptions.
