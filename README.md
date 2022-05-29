@@ -11,9 +11,11 @@ Many Avatar creators have no clue how to use the Worlds SDK, that is exactly why
 
 If you require further assistance, open a support ticket through my [Discord server](https://nathanbun.tv/discord).
 
+This package is also available on [booth.pm](https://nathanbuntv.booth.pm/items/3897661)
+
+[Also this nerd gave me the idea.](https://twitter.com/WitchyOak320)
+
 ## License
 This work is licensed under a **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
 
 Some assets included within this package may fall under different licensing, please read the **LICENSE.txt** file for exceptions.
-
-This package is also available on [booth.pm](https://nathanbuntv.booth.pm/items/3897661)
