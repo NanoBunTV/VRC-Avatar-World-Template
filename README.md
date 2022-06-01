@@ -1,3 +1,5 @@
+![VRCAWT-Thumbnail.png](https://i.imgur.com/tzEhxLU.png)
+
 # Avatar World Template
 ### Created by [NathanBunTV](https://twitter.com/nathanbuntv)
 
