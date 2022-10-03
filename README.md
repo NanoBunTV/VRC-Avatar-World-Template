@@ -1,4 +1,4 @@
-![VRCAWT-Thumbnail.png](https://i.imgur.com/tzEhxLU.png)
+![VRCAWT-Thumbnail.png](https://i.imgur.com/IsWs0aN.png)
 
 # Avatar World Template
 ### Created by [NanoBunTV](https://twitter.com/nanobuntv)
