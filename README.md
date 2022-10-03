@@ -21,5 +21,3 @@ This package is also available on [booth.pm](https://nathanbuntv.booth.pm/items/
 This work is licensed under a **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
 
 Some assets included within this package may fall under different licensing, please read the **LICENSE.txt** file for exceptions.
-
-test
