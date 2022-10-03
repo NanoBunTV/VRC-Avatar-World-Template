@@ -1,7 +1,7 @@
 ![VRCAWT-Thumbnail.png](https://i.imgur.com/tzEhxLU.png)
 
 # Avatar World Template
-### Created by [NathanBunTV](https://twitter.com/nathanbuntv)
+### Created by [NanoBunTV](https://twitter.com/nanobuntv)
 
 
 
@@ -11,7 +11,7 @@ Many Avatar creators have no clue how to use the Worlds SDK, that is exactly why
 
 ⚠ **If you fail to thoroughly read the [documentation](https://docs.google.com/document/d/1YzfKZK9B7GKWLM5A1B7Nnoy11o_L3tRnlCxwWN6iFpM/edit?usp=sharing) and something goes wrong, I will laugh at you.** ⚠
 
-If you require further assistance, open a support ticket through my [Discord server](https://nathanbun.tv/discord).
+If you require further assistance, open a support ticket through my [Discord server](https://nanobun.tv/discord).
 
 This package is also available on [booth.pm](https://nathanbuntv.booth.pm/items/3897661)
 
