@@ -2,7 +2,7 @@ Licensing information last updated 5/27/2022
 
 
 
-VRChat Avatar World Template created by NathanBunTV
+VRChat Avatar World Template created by NanoBunTV
 https://nathanbuntv.booth.pm/items/3897661
 https://github.com/Nathan43615/VRC-Avatar-World-Template
 
@@ -43,7 +43,7 @@ tldr; Only use VRChat SDK assets for VRChat related projects.
 
 
 --- Textures by ambientCG ---
-Any textures found within the "_NathanBunTV\AvatarWorldTemplate\Textures" folder that
+Any textures found within the "_NanoBunTV\AvatarWorldTemplate\Textures" folder that
 are contained within folders ending in "1K-JPG" were provided by the following site.
 https://ambientcg.com
 These assets are provided under a Creative Commons CC0 1.0 Universal License. https://creativecommons.org/publicdomain/zero/1.0/

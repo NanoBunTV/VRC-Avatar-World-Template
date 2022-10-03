@@ -16651,7 +16651,7 @@ MonoBehaviour:
   contentGore: 0
   contentOther: 0
   releasePublic: 0
-  unityVersion: 
+  unityVersion: 2019.4.31f1
   Name: 
   NSFW: 0
   SpawnPosition: {x: 0, y: 0, z: 0}
@@ -16659,7 +16659,25 @@ MonoBehaviour:
   DrawDistance: 0
   useAssignedLayers: 0
   DynamicPrefabs: []
-  DynamicMaterials: []
+  DynamicMaterials:
+  - {fileID: 2100000, guid: d04bb18158b6bbe4bbd48c81251fd0e0, type: 2}
+  - {fileID: 2100000, guid: 9f3eebc688a5b6040a8b394f1860a955, type: 2}
+  - {fileID: 2100000, guid: d5164ef2ca8acd243bb4459dbeb42c03, type: 2}
+  - {fileID: 2100000, guid: 17f69b4772580624d893e76673f1a546, type: 2}
+  - {fileID: 2100000, guid: 23f6898c71b4e5e4da549f0f93fa54cb, type: 2}
+  - {fileID: 2100000, guid: 27124b4196bdffd4aac6ab8e4f0194f3, type: 2}
+  - {fileID: 2100000, guid: ef242d8c92cc2ed49ae7e2ef72490e6d, type: 2}
+  - {fileID: 2100000, guid: f275d88e5139ccf41a303f5b90851ac2, type: 2}
+  - {fileID: 2100000, guid: 747f284db1ff2b04796a35ab0152f8a8, type: 2}
+  - {fileID: 2100000, guid: 7b1b2b118d491fa4eaf38a71e0b8673f, type: 2}
+  - {fileID: 2100000, guid: b74b268045ad79c4291da0840ceb43da, type: 2}
+  - {fileID: 2100000, guid: c6ade4ed5b452a448a252b4d22857d0e, type: 2}
+  - {fileID: 2100000, guid: 56934954614388644b1f9a2ef4e361cc, type: 2}
+  - {fileID: 2100000, guid: 7066c39f6b087494c888eaea97c6bb0f, type: 2}
+  - {fileID: 2100000, guid: 029f106b054f2ff4c9df340e6c094737, type: 2}
+  - {fileID: 2100000, guid: fdc1cf10f341e0545b5ea5006fc0dc36, type: 2}
+  - {fileID: 2100000, guid: 1f65e4f57434f8c42942b1312dce3c4c, type: 2}
+  - {fileID: 2100000, guid: d27c21dd516c9454182fc80aee147769, type: 2}
   LightMapsNear: []
   LightMapsFar: []
   LightMode: 0
