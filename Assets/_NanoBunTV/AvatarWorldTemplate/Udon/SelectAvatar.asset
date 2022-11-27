@@ -88,8 +88,5 @@ MonoBehaviour:
     uid: 2d60f3c1-6c9e-4a20-ac58-76c316a9650f
     jsonData: '{"uid":"2d60f3c1-6c9e-4a20-ac58-76c316a9650f","layout":{"serializedVersion":"2","x":240.0,"y":20.0,"width":352.00006103515627,"height":65.0},"title":"Gets
       the VRC Avatar Pedistal script from the same game object","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
-  viewTransform:
-    position: {x: -206, y: 227}
-    scale: 1.15
   version: 1.0.0
   showAssembly: 0

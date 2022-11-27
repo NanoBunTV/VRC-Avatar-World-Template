@@ -3,10 +3,7 @@ Licensing information last updated 10/2/2022
 
 
 VRChat Avatar World Template created by NanoBunTV
-https://nathanbuntv.booth.pm/items/3897661
-https://github.com/Nathan43615/VRC-Avatar-World-Template
-
-
+https://github.com/NanoBunTV/VRC-Avatar-World-Template
 
 
 

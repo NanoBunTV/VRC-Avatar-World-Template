@@ -28,3 +28,6 @@ https://docs.google.com/document/d/1YzfKZK9B7GKWLM5A1B7Nnoy11o_L3tRnlCxwWN6iFpM/
 
 If you require further assistance, open a support ticket through my Discord server.
 https://nanobun.tv/discord
+
+If this package really helped you out, maybe you could buy me a coffee?
+https://ko-fi.com/nanobuntv
