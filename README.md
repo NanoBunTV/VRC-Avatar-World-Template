@@ -13,7 +13,7 @@ Many Avatar creators have no clue how to use the Worlds SDK, that is exactly why
 
 If you require further assistance, open a support ticket through my [Discord server](https://nanobun.tv/discord).
 
-This package is also available on [booth.pm](https://nathanbuntv.booth.pm/items/3897661)
+This package is also available on [booth.pm](https://booth.pm/en/items/3897661)
 
 [Also this nerd gave me the idea.](https://twitter.com/WitchyOak320)
 
