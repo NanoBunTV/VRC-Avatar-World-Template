@@ -2726,7 +2726,7 @@ GameObject:
   - component: {fileID: 546459444}
   m_Layer: 0
   m_Name: CreditsWarning
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9024,6 +9024,9 @@ MonoBehaviour:
   mirrorResolution: 0
   maximumAntialiasing: 2
   customShader: {fileID: 0}
+  cameraClearFlags: 0
+  customSkybox: {fileID: 0}
+  customClearColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!23 &1525655447
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12444,7 +12447,7 @@ GameObject:
   - component: {fileID: 2038563687}
   m_Layer: 0
   m_Name: DELETE_ME-InEnginePlaceholder
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13242,6 +13245,9 @@ MonoBehaviour:
   mirrorResolution: 0
   maximumAntialiasing: 2
   customShader: {fileID: 0}
+  cameraClearFlags: 0
+  customSkybox: {fileID: 0}
+  customClearColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!108 &2137766456427918642
 Light:
   m_ObjectHideFlags: 0
@@ -13366,7 +13372,7 @@ Transform:
   - {fileID: 2137766458103969461}
   - {fileID: 2137766457217785709}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2137766456613871721
 GameObject:
@@ -16300,12 +16306,175 @@ MonoBehaviour:
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
   _syncMethod: 1
-  serializedProgramAsset: {fileID: 11400000, guid: 997b4f8db9ec72041b0101b0230f22c4,
+  serializedProgramAsset: {fileID: 11400000, guid: aef9c54601225c140992c77786a92278,
     type: 2}
   programSource: {fileID: 11400000, guid: c8df303ceb45ae84f85a11591f741734, type: 2}
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgQAAAAAAAAAAi8CAAAAAUoAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBTAGkAbgBnAGwAZQAsACAAbQBzAGMAbwByAGwAaQBiAF0AXQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAgAAAAYCAAAAAAAAACcBBAAAAHQAeQBwAGUAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAJwEKAAAAUwB5AG0AYgBvAGwATgBhAG0AZQABCwAAAGoAdQBtAHAASQBtAHAAdQBsAHMAZQAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAGkAbgBnAGwAZQAsACAAbQBzAGMAbwByAGwAaQBiAB8BBQAAAFYAYQBsAHUAZQAAAEBABwUCMAIAAAADAAAABgIAAAAAAAAAJwEEAAAAdAB5AHAAZQABFwAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcALAAgAG0AcwBjAG8AcgBsAGkAYgAnAQoAAABTAHkAbQBiAG8AbABOAGEAbQBlAAEJAAAAdwBhAGwAawBTAHAAZQBlAGQAJwEEAAAAdAB5AHAAZQABFwAAAFMAeQBzAHQAZQBtAC4AUwBpAG4AZwBsAGUALAAgAG0AcwBjAG8AcgBsAGkAYgAfAQUAAABWAGEAbAB1AGUAAAAAQAcFAjACAAAABAAAAAYCAAAAAAAAACcBBAAAAHQAeQBwAGUAARcAAABTAHkAcwB0AGUAbQAuAFMAdAByAGkAbgBnACwAIABtAHMAYwBvAHIAbABpAGIAJwEKAAAAUwB5AG0AYgBvAGwATgBhAG0AZQABCAAAAHIAdQBuAFMAcABlAGUAZAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAGkAbgBnAGwAZQAsACAAbQBzAGMAbwByAGwAaQBiAB8BBQAAAFYAYQBsAHUAZQAAAIBABwUCMAIAAAAFAAAABgIAAAAAAAAAJwEEAAAAdAB5AHAAZQABFwAAAFMAeQBzAHQAZQBtAC4AUwB0AHIAaQBuAGcALAAgAG0AcwBjAG8AcgBsAGkAYgAnAQoAAABTAHkAbQBiAG8AbABOAGEAbQBlAAELAAAAcwB0AHIAYQBmAGUAUwBwAGUAZQBkACcBBAAAAHQAeQBwAGUAARcAAABTAHkAcwB0AGUAbQAuAFMAaQBuAGcAbABlACwAIABtAHMAYwBvAHIAbABpAGIAHwEFAAAAVgBhAGwAdQBlAAAAAEAHBQcFBwU=
   publicVariablesUnityEngineObjects: []
   publicVariablesSerializationDataFormat: 0
+--- !u!114 &6242442341889665964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242442341889665965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31cc01a93f743444c81c1b601fab6bdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6242442341889665965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6242442341889665968}
+  - component: {fileID: 6242442341889665967}
+  - component: {fileID: 6242442341889665964}
+  - component: {fileID: 6242442341889665969}
+  - component: {fileID: 6242442341889665966}
+  m_Layer: 0
+  m_Name: AutoVRCCam
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &6242442341889665966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242442341889665965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 6242442341889665968}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 16
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!114 &6242442341889665967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242442341889665965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e96f540ac8b3f4b8cd0203b159fe0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Comment: The below script lets you position the VRCCam in your scene before uploading
+    your content.
+--- !u!4 &6242442341889665968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242442341889665965}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 1.25, z: -4.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!20 &6242442341889665969
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242442341889665965}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 1
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!23 &6807726250755285972
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16730,5 +16899,146 @@ MonoBehaviour:
   RenderReflectionBounces: 0
   RenderReflectionIntensity: 0
   RenderSkybox: {fileID: 0}
+  NetworkIDs:
+  - gameObject: {fileID: 1870229777}
+    ID: 10
+  - gameObject: {fileID: 912473228}
+    ID: 11
+  - gameObject: {fileID: 1723055625}
+    ID: 12
+  - gameObject: {fileID: 2038563685}
+    ID: 13
+  - gameObject: {fileID: 280055071}
+    ID: 14
+  - gameObject: {fileID: 1431103925}
+    ID: 15
+  - gameObject: {fileID: 1473404446}
+    ID: 16
+  - gameObject: {fileID: 1288953076}
+    ID: 17
+  - gameObject: {fileID: 2087102847}
+    ID: 18
+  - gameObject: {fileID: 1624007025}
+    ID: 19
+  - gameObject: {fileID: 976050768}
+    ID: 20
+  - gameObject: {fileID: 850323639}
+    ID: 21
+  - gameObject: {fileID: 2017990035}
+    ID: 22
+  - gameObject: {fileID: 1123223767}
+    ID: 23
+  - gameObject: {fileID: 1980373043}
+    ID: 24
+  - gameObject: {fileID: 30754999}
+    ID: 25
+  - gameObject: {fileID: 1485925172}
+    ID: 26
+  - gameObject: {fileID: 1674366670}
+    ID: 27
+  - gameObject: {fileID: 665236357}
+    ID: 28
+  - gameObject: {fileID: 1051448941}
+    ID: 29
+  - gameObject: {fileID: 777160697}
+    ID: 30
+  - gameObject: {fileID: 1598866061}
+    ID: 31
+  - gameObject: {fileID: 1438226310}
+    ID: 32
+  - gameObject: {fileID: 764005016}
+    ID: 33
+  - gameObject: {fileID: 1784696038}
+    ID: 34
+  - gameObject: {fileID: 1736955597}
+    ID: 35
+  - gameObject: {fileID: 1898159143}
+    ID: 36
+  - gameObject: {fileID: 1209689763}
+    ID: 37
+  - gameObject: {fileID: 45989873}
+    ID: 38
+  - gameObject: {fileID: 647649826}
+    ID: 39
+  - gameObject: {fileID: 319950486}
+    ID: 40
+  - gameObject: {fileID: 134373899}
+    ID: 41
+  - gameObject: {fileID: 976178528}
+    ID: 42
+  - gameObject: {fileID: 351099986}
+    ID: 43
+  - gameObject: {fileID: 2137766458227077793}
+    ID: 44
+  - gameObject: {fileID: 235621624}
+    ID: 45
+  - gameObject: {fileID: 2103094510}
+    ID: 46
+  - gameObject: {fileID: 77360975}
+    ID: 47
+  - gameObject: {fileID: 2127045897}
+    ID: 48
+  - gameObject: {fileID: 191261723}
+    ID: 49
+  - gameObject: {fileID: 1895562447}
+    ID: 50
+  - gameObject: {fileID: 1470045367}
+    ID: 51
+  - gameObject: {fileID: 1196216968}
+    ID: 52
+  - gameObject: {fileID: 884772924}
+    ID: 53
+  - gameObject: {fileID: 1290137139}
+    ID: 54
+  - gameObject: {fileID: 1358037763}
+    ID: 55
+  - gameObject: {fileID: 965829727}
+    ID: 56
+  - gameObject: {fileID: 1342890288}
+    ID: 57
+  - gameObject: {fileID: 1932019051}
+    ID: 58
+  - gameObject: {fileID: 1882213971}
+    ID: 59
+  - gameObject: {fileID: 307844920}
+    ID: 60
+  - gameObject: {fileID: 1794516507}
+    ID: 61
+  - gameObject: {fileID: 245859762}
+    ID: 62
+  - gameObject: {fileID: 1477149727}
+    ID: 63
+  - gameObject: {fileID: 1341985767}
+    ID: 64
+  - gameObject: {fileID: 609620697}
+    ID: 65
+  - gameObject: {fileID: 379713191}
+    ID: 66
+  - gameObject: {fileID: 1015398350}
+    ID: 67
+  - gameObject: {fileID: 129437142}
+    ID: 68
+  - gameObject: {fileID: 1768577805}
+    ID: 69
+  - gameObject: {fileID: 1529026262}
+    ID: 70
+  - gameObject: {fileID: 1382392136}
+    ID: 71
+  - gameObject: {fileID: 579952523}
+    ID: 72
+  - gameObject: {fileID: 1534998804}
+    ID: 73
+  - gameObject: {fileID: 1157429340}
+    ID: 74
+  - gameObject: {fileID: 546459440}
+    ID: 75
+  - gameObject: {fileID: 2030521371}
+    ID: 76
+  - gameObject: {fileID: 1316960655}
+    ID: 77
+  - gameObject: {fileID: 603811068}
+    ID: 78
+  - gameObject: {fileID: 2414955612161200807}
+    ID: 79
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}

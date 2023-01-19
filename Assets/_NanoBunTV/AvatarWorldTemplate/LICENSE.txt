@@ -1,4 +1,4 @@
-Licensing information last updated 10/2/2022
+Licensing information last updated 1/19/2023
 
 
 
@@ -60,3 +60,9 @@ Some Unity files may additionally be covered by the MIT license. Copyright (c) 2
 https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
 The six included HDR Skybox textures are provided under the Unity Asset Store ToS and EULA. https://unity3d.com/legal/as_terms
 tldr; Only use the included skybox in a Unity project.
+
+
+
+--- AutoVRCCam by Jar ---
+https://drive.google.com/file/d/15hiXngXJrcp0BN5wQC3x5vyaG3T3fgDA/view?usp=sharing
+A script that lets you position the VRCCam in your scene before uploading your content.
