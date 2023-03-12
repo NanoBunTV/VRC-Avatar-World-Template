@@ -1,3 +1,5 @@
+### [🟢 Download the Latest Release 🟢](https://github.com/NanoBunTV/VRC-Avatar-World-Template/releases/latest)
+
 ![VRCAWT-Thumbnail.png](https://i.imgur.com/0eBxnoq.png)
 
 # Avatar World Template
