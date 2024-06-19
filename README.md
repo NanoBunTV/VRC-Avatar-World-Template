@@ -2,6 +2,8 @@
 
 ![VRCAWT-Thumbnail.png](https://i.imgur.com/0eBxnoq.png)
 
+[![Static Badge](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-red?style=flat&logo=creativecommons&color=fb7729&link=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-sa%2F4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 # Avatar World Template
 ### Created by [NanoBunTV](https://nanobun.tv)
 
