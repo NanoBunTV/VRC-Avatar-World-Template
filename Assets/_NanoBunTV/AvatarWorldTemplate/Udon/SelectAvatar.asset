@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: SelectAvatar
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 8de9ec2d91f135e4ca7bfd1b41f0eff6,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    \r\n    __instance_0: %VRCSDK3ComponentsVRCAvatarPedestal,
+    null\r\n    __instigator_0: %VRCSDKBaseVRCPlayerApi, null\r\n    __instance_1:
+    %UnityEngineGameObject, this\r\n    __type_0: %SystemType, null\r\n    __Type_0:
+    %SystemType, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _interact\r\n   
+    \r\n    _interact:\r\n    \r\n        PUSH, __Type_0\r\n        PUSH, __type_0\r\n       
+    COPY\r\n        PUSH, __instance_1\r\n        PUSH, __type_0\r\n        PUSH,
+    __instance_0\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent\"\r\n       
+    PUSH, __instigator_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __instance_0\r\n        PUSH, __instigator_0\r\n        EXTERN, \"VRCSDK3ComponentsVRCAvatarPedestal.__SetAvatarUse__VRCSDKBaseVRCPlayerApi__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: Event_Interact
+      uid: 578ab368-3e9e-4eb3-bacb-491b0ea1d53d
+      position: {x: 620, y: -100}
+      nodeUIDs: []
+      flowUIDs:
+      - 599e7d67-01b8-4791-916f-da3351f286e4
+      nodeValues: []
+    - fullName: UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent
+      uid: 9cc8ebd5-2c97-483e-88de-63dbe9b5af89
+      position: {x: 480, y: 100}
+      nodeUIDs:
+      - 
+      - f21f1dc1-d05e-4872-b51f-43976c8b5124
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Type_VRCSDK3ComponentsVRCAvatarPedestal
+      uid: f21f1dc1-d05e-4872-b51f-43976c8b5124
+      position: {x: 220, y: 140}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
+    - fullName: VRCSDK3ComponentsVRCAvatarPedestal.__SetAvatarUse__VRCSDKBaseVRCPlayerApi__SystemVoid
+      uid: 599e7d67-01b8-4791-916f-da3351f286e4
+      position: {x: 780, y: 60}
+      nodeUIDs:
+      - 9cc8ebd5-2c97-483e-88de-63dbe9b5af89
+      - 296cf2d1-8f4c-4499-be40-9674d5783b5a
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
+      uid: 296cf2d1-8f4c-4499-be40-9674d5783b5a
+      position: {x: 580, y: 260}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
+    updateOrder: 0
+  graphElementData:
+  - type: 4
+    uid: d91fcd9d-4e43-42b1-917c-29ed33823739
+    jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
+  - type: 5
+    uid: 1855e1eb-386f-4a59-a9a9-d8cb4a203bae
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":7.0,"y":29.0,"width":200.0,"height":150.0}}'
+  - type: 2
+    uid: 1e943bcb-b55c-4f78-b162-bada7104f7be
+    jsonData: '{"uid":"1e943bcb-b55c-4f78-b162-bada7104f7be","layout":{"serializedVersion":"2","x":200.0,"y":0.0,"width":498.0,"height":260.0},"containedElements":["f21f1dc1-d05e-4872-b51f-43976c8b5124","9cc8ebd5-2c97-483e-88de-63dbe9b5af89","2d60f3c1-6c9e-4a20-ac58-76c316a9650f"],"title":"","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  - type: 3
+    uid: 2d60f3c1-6c9e-4a20-ac58-76c316a9650f
+    jsonData: '{"uid":"2d60f3c1-6c9e-4a20-ac58-76c316a9650f","layout":{"serializedVersion":"2","x":240.0,"y":20.0,"width":352.00006103515627,"height":65.0},"title":"Gets
+      the VRC Avatar Pedistal script from the same game object","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  version: 1.0.0
+  showAssembly: 0
