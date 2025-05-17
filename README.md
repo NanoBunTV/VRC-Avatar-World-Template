@@ -2,7 +2,7 @@
 
 [![VRCAWT Thumbnail](.github/RepoThumbnail.png)](https://github.com/NanoBunTV/VRC-Avatar-World-Template)
 
-[![License Badge](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-red?style=flat&logo=creativecommons&color=fb7729&link=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-sa%2F4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![GitHub Release](https://img.shields.io/github/v/release/NanoBunTV/VRC-Avatar-World-Template?style=flat&logo=github&color=347d39&link=https%3A%2F%2Fgithub.com%2FNanoBunTV%2FVRC-Avatar-World-Template%2Freleases%2Flatest)](https://github.com/NanoBunTV/VRC-Avatar-World-Template/releases/latest)
+[![License Badge](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-red?style=flat&logo=creativecommons&color=fb7729&link=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-sa%2F4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![GitHub Release](https://img.shields.io/github/v/release/NanoBunTV/VRC-Avatar-World-Template?style=flat&logo=github&color=347d39&link=https%3A%2F%2Fgithub.com%2FNanoBunTV%2FVRC-Avatar-World-Template%2Freleases%2Flatest&label=Release)](https://github.com/NanoBunTV/VRC-Avatar-World-Template/releases/latest)
 
 # Avatar World Template
 ### Created by [NanoBunTV](https://nanobun.tv)
